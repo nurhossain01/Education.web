@@ -1,0 +1,789 @@
+
+/*============default=css===============*/
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      font-family: 'Roboto', sans-serif;
+}
+.container-full{
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 15px;
+}
+.container{
+      width: 900px;
+      margin: 0 auto;
+      padding: 0 15px;
+}
+.container::before,
+.container::after,
+.container-full::before,
+.container-full::after{
+      content: "";
+      display: table;
+      clear: both;
+}
+ul{
+      list-style: none;
+}
+a{
+      text-decoration: none;
+}
+.col-50{
+      width: 50%;
+      float: left;
+      padding: 0 15px;
+}
+.col-33{
+      width: 33%;
+      float: left;
+      padding: 0 15px;
+}
+.col-25{
+      width: 25%;
+      float: left;
+      padding: 0 15px;
+}
+.col-30{
+      width: 30%;
+      float: left;
+      padding: 0 15px;
+}
+.col-70{
+      width: 70%;
+      float: left;
+      padding: 0 15px;
+}
+col-100{
+      width: 100%;
+      float: left;
+}
+.section-padding{
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+img{
+      width: 100%;
+      height: auto;
+      display: inline-block;
+}
+
+
+/*===========@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');=============*/
+
+/*font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;*/
+
+/*=============side=css==============*/
+/*=============1.header-css-start=============*/
+
+header{
+      background-color: pink;
+      padding: 20px 0;
+}
+.list{
+      float: right;
+}
+.list li a{
+      margin: 0 5px;
+      transition: .3s;
+}
+.list li a:hover i{
+      transition: .3s;
+}
+.list li a:hover i{
+      transform: rotate(180deg);
+}
+.list a:hover{
+      color: red;
+}
+.list li{
+      text-transform: capitalize;
+      font-size: 14px;
+      display: inline-block;
+      margin: 0 5px;
+}
+ul{
+      padding: 5px 0;
+}
+.logo img{
+      width: 130px;
+}
+.home{
+      background-image: url(../img/img-2.jpg);
+      padding: 160px 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      position: relative;
+      z-index: 1;  
+}
+.home::before{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      left: 0;
+      top: 0;
+      opacity: .4;
+      z-index: -1;
+}
+.btn{
+      color: white;
+      display: inline-block;
+}
+.btn{
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      background-color: red;
+      padding: 10px 10px;
+      transition: .3s;
+}
+.btn:hover{
+      background-color: purple;
+}
+.home h6{
+      color: red;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      margin-bottom: 20px;
+      transition: .3s;
+}
+.home h6:hover{
+      color: red;
+}
+.home h2{
+      color: #FFFFFF;
+      font-size: 48px;
+      font-weight: 800;
+}
+.home p{
+      font-size: 18px;
+      padding: 30px 0;
+      line-height: 30px;
+}
+
+/*=============header-css-end=============*/
+/*=============2.home=start==============*/
+
+.category{
+      background-color: gold;
+      padding: 20px 0;  
+}
+.ctg-details p{
+      font-size: 12px;
+      line-height: 22px;
+      padding-top: 8px;
+      padding-bottom: 20px;
+}
+.ctg-details h3{
+      font-size: 24px;
+      padding-top: 10px;
+      transition: .3s;
+}
+.ctg-details h3:hover{
+      color: blue;
+}
+
+/*===============home=end==============*/
+/*===============3.category=start=========*/
+
+.university{
+      padding: 100px 0;
+}
+.uni-name h6 a{
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      letter-spacing: 2px;
+}
+.uni-name h1{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      padding-top: 25px;
+      padding-bottom: 40px;
+      line-height: 40px;
+}
+.btn-2{
+      color: aliceblue;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: red;
+      padding: 10px 10px;
+      transition: .3s;
+}
+.btn-2:hover{
+      background-color: green;
+}
+.para-1 p{
+      font-size: 15px;
+      line-height: 20px;
+}
+
+/*============category=edn=========*/
+/*===============4.university=name=start=========*/
+
+
+.program{
+      background-color: azure
+}
+.programs-name{
+         text-align: center;
+}
+.programs-name h1{
+      font-size: 40px;
+      line-height: 40px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+}
+.programs-name h5{
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 1px;
+}
+.content-item p{
+      padding: 20px 0;
+}
+.content-item h2 a{
+      margin-top: 40px;
+      transition: .3s;
+}
+.content-item h2 a:hover{
+      color:red
+}
+.btn-3{
+      color: red;
+}
+
+
+/*=========.university=name=endd=========*/
+/*===============5.program=start=========*/
+
+.img-item{
+      padding-top: 30px;
+}
+.content-item-2{
+      background-color: #F7F7F7;
+}
+.content-item-2 h2{
+      padding: 10px 0;
+}
+.content-item-2 h2 a{
+
+      font-size: 24px;
+      line-height: 31.8px;
+      transition: .3s;
+}
+.content-item-2 h2 a:hover{
+           color: red;
+}
+
+.btn-3{
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: red;
+      padding: 2px 5px;
+      transition: .3s;
+}
+.btn-3:hover{
+      background-color: blue;
+}
+     
+.ratings{
+      padding-top: 20px;
+      padding-bottom: 10px;
+}
+.educaton p{
+      font-size: 16px;
+      line-height: 24px;
+}
+
+/*===============programs=end=========*/
+/*==============6.courses=start=======*/
+
+.counter{
+      color: #FFFBFA;
+      background-color: red;
+      padding: 70px 0;
+}
+.counter-box h2{
+      font-size: 44px;
+      line-height: 52.8px;
+}
+.counter-box span{
+      font-size: 18px;
+      line-height: 45px;
+      font-weight: bold;
+}
+
+/*===============courses=end=========*/
+/*============7.couter=start=========*/
+
+.center{
+      text-align: center;
+      padding-bottom: 60px;
+}
+.center h6{
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 2px;
+      padding-bottom: 30px;
+}
+.center h2{
+      font-size: 44px;
+      line-height: 44px;
+}
+.paragraph{
+      background-color: #F5F5F5;
+      padding: 30px 0;
+}
+.paragraph{
+      padding: 30px 20px;
+}
+.paragraph i{
+      font-size: 30px;
+      color: #DDDDDD;
+}
+.paragraph p{
+      color: #62696F;
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 20px;
+}
+.test-footer{
+      display: flex; 
+      padding-left: 30px; 
+      padding-top: 20px;  
+}
+.test-footer img{
+      width: 60px;
+      height: 60x;
+      border-radius: 50%;   
+}
+.test-auther{
+      padding-left: 20px;
+}
+.test-footer{
+      display: flex;
+      border-top: 3px solid #DDDDDD;  
+      position: relative;   
+}
+.test-footer::before{
+      content: "\f0d7";
+      position: absolute;
+      left: 32px;
+      top: -10px;
+      font-size: 20px;
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      color: #DDDDDD;
+}
+.test-auther h3{
+      font-size: 18px;
+      line-height: 15px;
+      color: #122541;
+      padding-bottom: 10px;
+      text-transform: capitalize;
+}
+
+/*===============counter=end=========*/
+/*============8.events=stert=========*/
+
+.events{
+      background-color: #F5F5F5;
+}
+.upcoming-events{
+      text-align: center;
+      padding-bottom: 50px;
+}
+.upcoming-events h6{
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 1px;
+      color: #F3A188;
+      padding: 20px 0;
+}
+.upcoming-events h1{
+      font-size: 44px;
+      line-height: 44px;
+}
+.date-line{
+      display: flex;
+      font-size: 10px;
+      line-height: 18px;
+      padding: 20px 0;     
+}
+.date-line i{
+      color: #FF5421;
+}
+.date-line i span{
+      padding-left: 5px;
+}
+.location{
+      padding-left: 30px;
+}
+.data{
+      font-size: 12px;
+      line-height: 20px;
+      display: inline-block;
+}
+.data a{
+      transition: .3s;
+}
+.data a:hover{
+      color: red;
+}
+.para-2{
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 15px;
+      padding-bottom: 25px;
+}
+.baton a{
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #E88769;
+      transition: .3s;
+}
+.baton a:hover{
+      color: red;
+}
+
+/*===============events=end=========*/
+/*============9.video=start=========*/
+
+.video{
+      background: url(../img/img-2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 120px 0;
+      color: #FFFFFF;
+      position: relative;
+      z-index: 1;
+
+}
+.video::before{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: #081429;
+      opacity: .5;
+      z-index: -1;
+      left: 0;
+      top: 0;
+}
+.video h6{
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+.video h3{
+      font-size: 48px;
+      text-transform: capitalize;
+      padding: 20px 0 40px 0;
+}
+.video a i{
+      color: #FFFFFF;
+      background-color: #FF5421;
+      padding: 30px 30px;
+      border-radius: 50%;
+      font-size: 20px;
+}
+
+/*===============video=end=========*/
+/*==========11.Chooses=start=======*/
+
+.Choose{
+      background-color: #F5F5F5;
+}
+.Choose-list{
+      display: flex;
+}
+.Choose-list-left i{
+      color: white;
+      background-color: #FF5421;
+      padding: 20px 20px;
+      border-radius: 50%;
+      margin: 30px 20px;
+}
+.Choose-right h2{
+      font-size: 44px;
+      color: #122541;
+      padding-left: 60px;
+}
+.Choose-list-right h2{
+      font-size: 24px;
+      color: #122541;
+      padding-top: 30px;
+}
+.Choose-list-right p{
+      font-size: 16px;
+      line-height: 24px;
+      color: #7E8488;
+      padding-top: 10px;
+}
+
+/*===============Chooses=end===============*/
+/*==========12.Teachers-list-start=========*/
+
+.teachers{
+      background-color: #A5D6E1;
+}
+.brand{
+      text-align: center;
+}
+.brand span{
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: #F86438;
+}
+.brand h1{
+      font-size: 44px;
+      color: #122541;
+      padding: 20px 0 40px 0;
+}
+.brands-img a{
+      transition: .3s;
+}
+.brands-img a:hover{
+      background-color: red;
+}
+.brands-name{
+      text-align: center;
+}
+.brands-name h4{
+      font-size: 20px;
+      color: #667284;
+      padding: 10px 0;
+}
+.brands-name span{
+      font-size: 15px;
+      color: #93989B;
+}
+
+/*===============Teacher-list-end============*/
+/*===============12.form-start===============*/
+
+.blogs{
+      text-align: center;
+}
+.blogs h5{
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      color: #F58766;
+}
+.blogs h1{
+      font-size: 44px;
+      color: #132642;
+      padding: 30px 0;
+}
+.form-img img{
+      width: 100%;
+      height: 100%;
+      transition: .3s;
+}
+.form-img{
+      position: relative;
+      overflow: hidden;
+}
+.form-img:hover img{
+      transform: scale(1.1);
+}
+.admin{
+      display: flex;
+      padding: 10px 20px;
+      color: #82878C;
+      font-size: 14px;
+      color: red;
+}
+.admin h4 i{
+      padding-right: 5px;
+}
+.admin h5 i{
+      padding-right: 5px;
+}
+.admin h5{
+      padding-left: 25px;
+}
+.Traditional h4{
+      font-size: 18px;
+      line-height: 28px;
+      padding: 20px 0;
+      text-transform: capitalize;
+}
+.Traditional p{
+      font-size: 15px;
+      line-height: 24px;
+      color: #93989B;
+      padding-bottom: 30px;
+      text-transform: capitalize;
+}
+.Traditional span{
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: white;
+      background-color: red;
+      padding: 10px 10px;
+      transition: .3s;
+}
+.Traditional span:hover{
+      background-color: pink;
+
+}
+
+/*===============form-end===============*/
+/*===========13.foooter-start===========*/
+
+.instargam{
+      background-color: #313131;
+      color: #E4E4E4;
+      font-size: 15px;
+}
+.edomodo{
+      font-size: 12px;
+      line-height: 15px;
+      color:#E4E4E4;
+      padding: 20px 0;
+}
+.contact-1 a{
+      font-size: 12px;
+      color: #ffff;
+      transition: .3s;
+}
+.contact-2 a{
+      font-size: 12px;
+      color: #ffff;
+      transition: .3s;
+}
+.contact-1 a:hover,
+.contact-2 a:hover{
+      color: red;
+}
+.contact-1{
+      padding-bottom: 10px;
+}
+.contact-1 i,
+.contact-2 i{
+      padding-right: 15px;
+}
+.footer-list{
+      padding: 10px 0;
+}
+.footer-list li{
+      font-size: 12px;
+      padding: 10px 0;
+      color: #FAFAFA;
+}
+.footer-list a:hover{
+      color: red;
+}
+.footer-list a{
+      color: #ffff;
+      transition: .3s;
+}
+.icon li i{
+      margin-right: 5px;
+}
+.img-box{
+      display: flex;
+}
+.img-box01{
+      display: flex;
+}
+.style-img{
+      padding-top: 30px;
+}
+.style-img a{
+      margin: 5px 5px;
+      position: relative;
+}
+.style-img a:hover::before{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      left: 0;
+      top: 0;
+      opacity: .5;
+      font-family: "Font Awesome 5 Free";
+}
+.global{
+      padding: 30px 0 0 10px;
+}
+.global a img{
+      width: 250px;
+      height: auto;
+}
+
+/*===============instagram-end====================*/
+/*===============13.footer-start==================*/
+
+.theme-icon{
+      color: #9FA0A1;
+      padding: 40px 0;
+      background-color: #2A2E31;
+}
+.theme-left{
+      font-size: 14px;
+}
+.theme-left a{
+      color: #9FA0A1;
+      margin-left: 10px;
+      transition: .3s;
+}
+.theme-right a i{
+      display: inline-block;
+      float: right;
+      margin-right: 20px;
+      font-size: 14px;
+      color: #9FA0A1;
+      transition: .3s;
+}
+.theme-left a:hover{
+      color: red;
+      border-bottom: 2px solid;
+}
+.theme-right a i:hover{
+      color: red;
+}
+
+/*=======footer-end=====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
